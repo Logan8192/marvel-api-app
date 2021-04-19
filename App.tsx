@@ -1,15 +1,13 @@
 import React from 'react';
-import { Container } from 'native-base';
-import Layout from './src/layouts/layout';
-
-declare const global: { HermesInternal: null | {} };
+import 'react-native-gesture-handler';
+import { NavigationContainer } from '@react-navigation/native';
+import Layout from './src/layouts/Layout';
 
 const App = () => {
   return (
-    <Container>
-      <Layout>
-      </Layout>
-    </Container>
+    <NavigationContainer>
+      <Layout />
+    </NavigationContainer>
   );
 };
 

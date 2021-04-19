@@ -8,6 +8,8 @@ target 'Marvel' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
   target 'MarvelTests' do
     inherit! :complete
     # Pods for testing
