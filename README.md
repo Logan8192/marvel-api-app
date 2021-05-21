@@ -38,7 +38,7 @@ cp .env.example .env
 
 - Read the [Authorization page](https://developer.marvel.com/documentation/authorization) in order to learn how to generate your API's hash.
 
-- Copy your public key and hash in the previously generated .env file.
+- Copy your public key and hash in the previously generated ``.env`` file.
 
 ## Run App
 - Run on an Android Device or Emulator:

@@ -2,8 +2,8 @@ import { Container, Content, Spinner, Text } from 'native-base';
 import React, { useState } from 'react';
 import axios from 'axios';
 import { API_URL, PUBLIC_KEY, HASH } from '@env';
-import HeaderSearchBar from '../components/HeaderSearchBar';
-import Card from '../components/Card';
+import HeaderSearchBar from '~components/HeaderSearchBar';
+import Card from '~components/Card';
 import { StyleSheet, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/core';
 

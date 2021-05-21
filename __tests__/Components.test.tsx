@@ -1,7 +1,7 @@
 import 'react-native';
 import React from 'react';
 import { render } from '@testing-library/react-native';
-import Card from '../src/components/Card';
+import Card from '~components/Card';
 
 describe('Cards', () => {
   it('Should render with the name and image of the item', () => {

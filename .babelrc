@@ -7,6 +7,12 @@
       "whitelist": null,
       "safe": false,
       "allowUndefined": false
+    }],
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "~components": "./src/components"
+      }
     }]
   ]
 }
