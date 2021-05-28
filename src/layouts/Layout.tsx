@@ -1,7 +1,8 @@
 import { Container, Icon } from 'native-base';
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import CharactersScreens from '../screens/CharactersScreens';
+import CharactersScreens from '~screens/CharactersScreens';
+import ComicsScreens from '~screens/comicsScreens';
 
 export default function Layout() {
   const Tab = createBottomTabNavigator();
@@ -23,6 +24,15 @@ export default function Layout() {
                 name="group"
                 style={{ color: color }}
               />
+            ),
+          }}
+        />
+        <Tab.Screen
+          name="Comics"
+          component={ComicsScreens}
+          options={{
+            tabBarIcon: ({ color }) => (
+              <Icon type="FontAwesome" name="book" style={{ color: color }} />
             ),
           }}
         />

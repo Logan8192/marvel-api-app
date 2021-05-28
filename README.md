@@ -5,8 +5,13 @@ Mobile App who uses Marvel's API to get info about characters, comics, series an
 ## Current Features
 - Search and discover multiple versions of Marvel's characters.
 
-<img src="./screenshots/character_search.png" width="300">
-<img src="./screenshots/character_details.png" width="300">
+<img src="./screenshots/character_search.png" width="250">
+<img src="./screenshots/character_details.png" width="250">
+
+- Search and discover comics.
+
+<img src="./screenshots/comic_search.png" width="250">
+<img src="./screenshots/comic_details.png" width="250">
 
 ## Get started
 
